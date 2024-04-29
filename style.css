@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    background-color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+header {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbar {
+    width: 30%;
+    padding-right: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-child {
+    list-style: none;
+    text-decoration: underline;
+}
+
+/* Links */
+
+a:link {
+    cursor: pointer;
+    color: seashell;
+}
+
+
+a:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+/* Headers */
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+/* Mission */
+
+.mission {
+    position: relative;
+    display: flex;
+    top: 10%;
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+}
+
+.mission img {
+    display: flex;
+}
+
+/* Could you put the text as a flex-container and overlay the container ontop of the image. Align-items center, justify content center with no space between them. */
+
