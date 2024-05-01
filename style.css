@@ -62,7 +62,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 h3 {
@@ -126,3 +126,61 @@ h4 {
 }
 
 
+/* Locations */
+
+.locations {
+    text-align: center;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.locations h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.locations-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.locations-child {
+    width: 300px;
+    line-height: 2.5em;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.locations img {
+    min-height: 500px;
+    max-width: 100%;
+}
+
+.locations-child:last-child {
+    margin-right: 0px;
+}
+
+/* Footer */
+
+.footer-center {
+    height: 200px;
+    text-align: center;
+    line-height: 3em;
+}
+
+.footer-copyright {
+    float: left;
+    margin-left: 20px;
+}
